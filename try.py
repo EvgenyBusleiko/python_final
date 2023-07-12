@@ -1,4 +1,4 @@
-from sem7.Test.sem7_ht1_Busleiko import file_rename
+from sem7.sem7_ht1_Busleiko import *
 
 file_rename('new_file', 4, 'txt', 'jpg', 3, 5)
 

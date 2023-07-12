@@ -2,7 +2,9 @@
 # Используйте генератор случайных чисел для случайной расстановки ферзей в задаче выше.
 # Проверяйте различный случайные  варианты и выведите 4 успешных расстановки.
 from random import randint as rd
-from sem6 import
+
+
+from sem6.sem6_ht2_Busleiko import check_chessboard
 
 
 def get_chessboard():
