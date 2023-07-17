@@ -33,7 +33,7 @@ def structure_of_directory(dir):
                 size += file_size
             dict[directory] = [os.getcwd(), 'd', size]
     with open('test.json', 'w', encoding='UTF-8') as f1:
-        json.dump(dict, f1, ensure_ascii=False)
+        json.dump(dict, f1, indent=4,ensure_ascii=False)
 
 
 def json_to_csv(name):
