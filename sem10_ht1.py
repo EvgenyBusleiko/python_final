@@ -58,12 +58,12 @@ class Animalmaker:
 
         tmp = self.animal_type(self.name, self.age, self.extra)
 
-        # if self.animal_type not in type_list:
-        #     print('Такого класса нет')
-        #     return
-        # else:
-        #     class_name = (f'{self.animal_type}("{self.name}",{self.age},{self.extra})')
-        #     tmp = eval(class_name)
+        if self.animal_type not in type_list:
+            print('Такого класса нет')
+            return
+        else:
+            class_name = (f'{self.animal_type}("{self.name}",{self.age},{self.extra})')
+            tmp = eval(class_name)
         return tmp
 
 

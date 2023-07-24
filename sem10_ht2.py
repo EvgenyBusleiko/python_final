@@ -13,7 +13,7 @@ import json
 import csv
 
 
-class Csv_file:
+class CsvFile:
     def __init__(self, name):
         self.name = name
 
@@ -34,4 +34,4 @@ class Csv_file:
             json.dump(data, f2, ensure_ascii=False)
 
 
-Csv_file('res3.csv').convert
+CsvFile('res3.csv').convert()

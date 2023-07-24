@@ -5,6 +5,7 @@ def matrix_transpon(tmp):
     new_matrix = []
     for i in range(len(tmp[0])):
         tmp_list = []
+
         for j in range(len(tmp)):
             tmp_list.append(tmp[j][i])
         new_matrix.append(tmp_list)
