@@ -58,7 +58,7 @@ class Matrix:
         print()
 
     def __add__(self, other):
-        self, other = Matrix.check_matrix(self, other)
+        self, other = self.check_matrix(other)
         matrix = []
         for i in range(len(self)):
             line = []
@@ -106,5 +106,5 @@ Matrix.print_matrix(a)
 
 Matrix.print_matrix(b)
 
-print(Matrix.__eq__(a, b))
-Matrix.__mul__(a, b)
+print(Matrix.__eq__(a, a))
+Matrix.__mul__(a, a)
