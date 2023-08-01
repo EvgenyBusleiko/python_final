@@ -22,7 +22,6 @@ class AccessException(UserException):
         return (f'Access error! User id={self.id} name={self.name} level={self.level} ')
 
 
-
 class User:
     def __init__(self, id, name, level):
         self.id = id
@@ -41,9 +40,9 @@ class User:
 
 class Project:
 
-    def __init__(self):
+    def __init__(self,file_name='sem8_1/res2.json'):
         try:
-            self.users = self.json_to_users()
+            self.users = self.json_to_users(file_name)
         except:
             print('No users error')
             self.users = set()
@@ -72,9 +71,9 @@ class Project:
             self.users.add(User(name=name, id=id, level=level))
 
 
-p = Project()
-print(*p.users)
-p.enter(name='Иван', id='5')
-p.add_user('Петр', 10, 6)
-p.add_user('Петр1', 10, 1)
-print(*p.users)
+# p = Project()
+# print(*p.users)
+# p.enter(name='Иван', id='5')
+# p.add_user('Петр', 10, 6)
+# p.add_user('Петр1', 10, 1)
+# print(*p.users)
