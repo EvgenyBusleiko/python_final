@@ -1,0 +1,35 @@
+2023-08-16 17:15:14,266 INFO wrapper: {'funcname': 'get_length', 'args': (2, 6), 'result': 16}
+2023-08-16 17:15:14,266 INFO wrapper: {'funcname': 'get_length', 'args': (2,), 'result': 8}
+2023-08-16 17:16:30,834 INFO wrapper: {'funcname': 'get_length', 'args': (2, 6), 'result': 16}
+2023-08-16 17:16:30,834 ERROR wrapper: ERORR! args=(), get_length
+2023-08-16 17:17:22,575 INFO wrapper: {'funcname': 'get_length', 'args': (2, 6), 'result': 16}
+2023-08-16 17:17:22,575 ERROR wrapper: ERORR! args=(4, 10), get_area
+2023-08-16 17:18:10,434 INFO wrapper: {'funcname': 'get_length', 'args': (2, 6), 'result': 16}
+2023-08-16 17:18:10,435 INFO wrapper: {'funcname': 'get_area', 'args': (4, 10), 'result': 40}
+2023-08-16 17:23:22,825 INFO wrapper: {'funcname': 'get_length', 'args': (2, -6), 'result': None}
+2023-08-16 17:23:22,826 INFO wrapper: {'funcname': 'get_area', 'args': (-4, 10), 'result': -40}
+2023-08-16 17:25:32,539 ERROR wrapper: ERORR! args=(2, -6), get_length, Сторона не может быть меньше или равна нулю
+2023-08-16 17:25:32,539 INFO wrapper: {'funcname': 'get_area', 'args': (-4, 10), 'result': -40}
+2023-08-16 17:26:00,084 ERROR wrapper: ERORR! args=(2, -6), get_length, Сторона не может быть меньше или равна нулю
+2023-08-16 17:26:00,085 ERROR wrapper: ERORR! args=(-4, 10), get_area, Сторона не может быть меньше или равна нулю
+2023-08-16 17:41:39,745 INFO wrapper: {'funcname': 'get_length', 'args': (5, 0), 'result': 20}
+2023-08-16 17:41:48,778 INFO wrapper: {'funcname': 'get_length', 'args': (5, 0), 'result': 20}
+2023-08-16 17:43:27,055 ERROR wrapper: ERORR! args=('15', '15'), get_length
+2023-08-16 17:44:09,739 INFO wrapper: {'funcname': 'get_length', 'args': (5, 0), 'result': 20}
+2023-08-16 17:44:31,444 ERROR wrapper: ERORR! args=('15', '-15'), get_length
+2023-08-16 17:45:07,200 ERROR wrapper: ERORR! args=('15', '-15'), get_length
+2023-08-16 17:45:38,635 INFO wrapper: {'funcname': 'get_length', 'args': (5, 0), 'result': 20}
+2023-08-16 17:45:38,635 INFO wrapper: {'funcname': 'get_length', 'args': (5, 0), 'result': 20}
+2023-08-16 17:45:44,156 ERROR wrapper: ERORR! args=('15', '-15'), get_length
+2023-08-16 17:45:44,157 ERROR wrapper: ERORR! args=('15', '-15'), get_length
+2023-08-16 17:47:15,298 INFO wrapper: {'funcname': 'get_length', 'args': (5, 0), 'result': 20}
+2023-08-16 17:47:20,197 ERROR wrapper: ERORR! args=('15', '-15'), get_length
+2023-08-16 17:47:51,439 ERROR wrapper: ERORR! args=('15', '-15'), get_length
+2023-08-16 17:50:21,877 ERROR wrapper: ERORR! args=(15, -15), get_length, Сторона не может быть меньше или равна нулю
+2023-08-16 17:50:37,229 INFO wrapper: {'funcname': 'get_length', 'args': (15, 15), 'result': 60}
+2023-08-16 17:55:07,712 INFO wrapper: {'funcname': 'get_length', 'args': (15, 215), 'result': 460}
+2023-08-16 17:58:06,321 INFO wrapper: {'funcname': 'get_length', 'args': (15, 21), 'result': 72}
+2023-08-16 17:58:06,321 INFO wrapper: {'funcname': 'get_length', 'args': (15, 21), 'result': 72}
+2023-08-16 17:58:32,030 ERROR wrapper: ERORR! args=(-15, 21), get_length, Сторона не может быть меньше или равна нулю
+2023-08-16 17:58:32,030 ERROR wrapper: ERORR! args=(-15, 21), get_length, Сторона не может быть меньше или равна нулю
+2023-08-16 17:59:06,190 ERROR wrapper: ERORR! args=(-15, 21), get_length, Сторона не может быть меньше или равна нулю
